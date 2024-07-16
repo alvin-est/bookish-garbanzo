@@ -1,0 +1,21 @@
+header {
+    background-color: cornflowerblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.searchBar {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.mainContent {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.centered {
+    text-align: center;
+}

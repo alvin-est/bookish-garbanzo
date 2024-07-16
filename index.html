@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
+</head>
+<body>
+    <header class="container-fluid">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="container grid">
+        <aside class="searchBar container-fluid">
+            <h1>Search for a city:</h1>
+             <form>
+                <fieldset>
+                    <input type="search" name="text" placeholder="Location" aria-label="Text" />
+                    <input type="submit" />
+                </fieldset>
+             </form>
+            <hr />
+        </aside>
+
+        <section class="mainContent container-fluid">
+            <div class="todaysForecast">
+                <h1>City: <span id="selectedCity"></span></h1>
+            </div>
+            <div class="5dayForecast">
+                <h1>5-day Forecast:</h1>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="centered">With love, ©2024.</p>
+    </footer>
+    
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
